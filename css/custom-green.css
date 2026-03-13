@@ -1,0 +1,313 @@
+/* Custom Green Theme for DentProtetyka */
+
+:root {
+  --bs-primary: #2E7D32 !important;
+  --bs-primary-rgb: 46, 125, 50 !important;
+  --bs-blue: #2E7D32 !important;
+  --bs-info: #4CAF50 !important;
+  --bs-info-rgb: 76, 175, 80 !important;
+  --secondary-green: #66BB6A;
+  --secondary-green-light: #81C784;
+  --accent-green: #A5D6A7;
+}
+
+/* Primary color overrides */
+.bg-color,
+.bg-primary {
+  background-color: #2E7D32 !important;
+}
+
+.bg-color-op-1 {
+  background-color: rgba(102, 187, 106, 0.15) !important;
+}
+
+/* Secondary green for accents */
+.bg-color-secondary {
+  background-color: #66BB6A !important;
+}
+
+.bg-color-light {
+  background-color: #A5D6A7 !important;
+}
+
+.id-color,
+.text-primary {
+  color: #2E7D32 !important;
+}
+
+.id-color-2 {
+  color: #1B5E20 !important;
+}
+
+/* Buttons */
+.btn-main {
+  background: #2E7D32 !important;
+}
+
+.btn-main:hover {
+  background: #1B5E20 !important;
+}
+
+.btn-main.btn-line {
+  background: transparent !important;
+  border-color: #fff !important;
+  color: #fff !important;
+}
+
+.btn-main.btn-line:hover {
+  background: #2E7D32 !important;
+  border-color: #2E7D32 !important;
+}
+
+/* Links and accents */
+a {
+  color: #2E7D32;
+}
+
+a:hover {
+  color: #1B5E20;
+}
+
+/* Dark section */
+.section-dark,
+.bg-dark {
+  background-color: #1B5E20 !important;
+}
+
+/* Header scroll */
+header.scroll-light.smaller {
+  background: #fff;
+}
+
+/* Gradient overlay */
+.sw-overlay {
+  background: linear-gradient(to right, #1B5E20 0%, transparent 100%) !important;
+}
+
+.gradient-edge-left {
+  background: linear-gradient(to right, #1B5E20 0%, transparent 100%) !important;
+}
+
+/* Icons */
+.icofont-check-circled:before,
+.fa-check:before {
+  color: #2E7D32;
+}
+
+/* Counter */
+.de_count h3 {
+  color: #66BB6A !important;
+}
+
+/* Subtitle accent */
+.subtitle {
+  color: #66BB6A !important;
+}
+
+/* Accordion */
+.accordion-button:not(.collapsed) {
+  background-color: rgba(46, 125, 50, 0.1) !important;
+  color: #1B5E20 !important;
+}
+
+/* Alert warning (senior discount) */
+.alert-warning {
+  background: rgba(46, 125, 50, 0.9) !important;
+  color: #fff !important;
+  border: none !important;
+}
+
+/* Footer - Light Style */
+footer.section-dark,
+footer.footer-light {
+  background: rgba(102, 187, 106, 0.15) !important;
+}
+
+footer.footer-light .widget h5,
+footer.section-dark .widget h5 {
+  color: #1B5E20 !important;
+}
+
+footer.footer-light p,
+footer.section-dark p {
+  color: #333 !important;
+}
+
+footer.footer-light a,
+footer.section-dark a {
+  color: #2E7D32 !important;
+}
+
+footer.footer-light a:hover,
+footer.section-dark a:hover {
+  color: #1B5E20 !important;
+}
+
+footer.footer-light .fw-bold,
+footer.section-dark .fw-bold {
+  color: #1B5E20 !important;
+}
+
+footer.footer-light .text-white,
+footer.section-dark .text-white,
+footer.footer-light .fw-bold.text-white,
+footer.section-dark .fw-bold.text-white {
+  color: #1B5E20 !important;
+}
+
+footer.footer-light .text-light,
+footer.section-dark .text-light,
+footer.footer-light .text-dark,
+footer.section-dark .text-dark {
+  color: #333 !important;
+}
+
+/* Footer - regular text color */
+footer.footer-light,
+footer.section-dark {
+  color: #333 !important;
+}
+
+footer.footer-light li,
+footer.section-dark li {
+  color: #333 !important;
+}
+
+footer.footer-light .social-icons a,
+footer.section-dark .social-icons a {
+  background: #2E7D32 !important;
+  color: #fff !important;
+}
+
+footer.footer-light .social-icons a:hover,
+footer.section-dark .social-icons a:hover {
+  background: #1B5E20 !important;
+}
+
+/* Subfooter - Light Style */
+.subfooter {
+  background: rgba(46, 125, 50, 0.2) !important;
+}
+
+.subfooter,
+.subfooter a {
+  color: #1B5E20 !important;
+}
+
+.subfooter a:hover {
+  color: #2E7D32 !important;
+}
+
+/* Preloader */
+#de-loader {
+  background: #2E7D32 !important;
+}
+
+/* Selection */
+::selection {
+  background: #2E7D32;
+  color: #fff;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar-thumb {
+  background: #2E7D32;
+}
+
+/* Border color */
+.border-bottom {
+  border-color: rgba(46, 125, 50, 0.2) !important;
+}
+
+/* List check marks */
+.ul-check li:before {
+  color: #2E7D32 !important;
+}
+
+/* Service boxes hover */
+.hover:hover .btn-plus {
+  background: #2E7D32 !important;
+}
+
+.btn-plus {
+  background: #2E7D32 !important;
+  color: #fff !important;
+}
+
+.btn-plus i,
+.btn-plus span {
+  color: #fff !important;
+}
+
+.btn-plus:hover {
+  background: #1B5E20 !important;
+}
+
+/* Icons secondary color */
+.id-color-2,
+.icofont-check-circled {
+  color: #66BB6A !important;
+}
+
+/* Hover effects with lighter green */
+.hover:hover {
+  border-color: #66BB6A !important;
+}
+
+/* Stats section */
+.bg-dark .de_count h3,
+.section-dark .de_count h3 {
+  color: #81C784 !important;
+}
+
+/* Alert/banner for seniors */
+.alert-warning {
+  background: linear-gradient(135deg, #2E7D32 0%, #66BB6A 100%) !important;
+  color: #fff !important;
+  border: none !important;
+}
+
+/* CTA sections gradient */
+.bg-color.text-light {
+  background: linear-gradient(135deg, #1B5E20 0%, #2E7D32 100%) !important;
+}
+
+/* Form focus */
+.form-control:focus {
+  border-color: #2E7D32 !important;
+  box-shadow: 0 0 0 0.25rem rgba(46, 125, 50, 0.25) !important;
+}
+
+/* Extra wrap (right panel / mobile menu) - dark gray with green tint */
+#extra-wrap {
+  background: rgba(30, 40, 35, 0.95) !important;
+}
+
+#extra-wrap a {
+  color: #A5D6A7 !important;
+}
+
+#extra-wrap a:hover {
+  color: #81C784 !important;
+}
+
+#extra-wrap .h-phone {
+  color: #66BB6A !important;
+}
+
+#extra-wrap .btn-main {
+  background: #2E7D32 !important;
+}
+
+#extra-wrap .btn-main:hover {
+  background: #1B5E20 !important;
+}
+
+/* Close button in extra-wrap */
+#btn-close-extra span {
+  background: #A5D6A7 !important;
+}
+
+#btn-close-extra:hover span {
+  background: #fff !important;
+}
