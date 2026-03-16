@@ -1045,7 +1045,7 @@ header:not(.header-mobile) #mainmenu>li:hover ul.mega {
 }
 
 #menu-btn.menu-open:before{
-  content: "\f068";
+  content: "\f00d";
 }
 
 .rtl #menu-btn {
