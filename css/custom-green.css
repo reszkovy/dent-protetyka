@@ -407,3 +407,34 @@ header.smaller #btn-extra span {
     font-size: 15px !important;
   }
 }
+
+/* ========== Mobile hero text — nie nachodzi na zdjęcie ========== */
+@media (max-width: 768px) {
+  #section-intro h1 {
+    font-size: 28px !important;
+    line-height: 1.2 !important;
+  }
+
+  #section-intro .lead {
+    font-size: 15px !important;
+    line-height: 1.5 !important;
+  }
+
+  #section-intro .sw-overlay {
+    opacity: 0.7 !important;
+  }
+}
+
+@media (max-width: 480px) {
+  #section-intro h1 {
+    font-size: 24px !important;
+  }
+
+  #section-intro .lead {
+    font-size: 14px !important;
+  }
+
+  #section-intro .sw-overlay {
+    opacity: 0.75 !important;
+  }
+}
