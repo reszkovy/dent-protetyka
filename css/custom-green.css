@@ -413,6 +413,10 @@ header.smaller #btn-extra span {
   max-width: 420px;
 }
 
+#section-intro h1 {
+  line-height: 1.05 !important;
+}
+
 /* ========== Mobile hero text ========== */
 @media (max-width: 768px) {
   #section-intro .col-lg-6 {
