@@ -424,6 +424,12 @@ header.smaller #btn-extra span {
     padding-bottom: 30px;
   }
 
+  /* Zoom in on faces, position them in upper portion */
+  #section-intro .static-hero-bg {
+    background-size: 180% auto !important;
+    background-position: 65% 15% !important;
+  }
+
   #section-intro h1 {
     font-size: 26px !important;
     line-height: 1.15 !important;
@@ -451,6 +457,12 @@ header.smaller #btn-extra span {
 @media (max-width: 480px) {
   #section-intro .abs.abs-centered {
     padding-bottom: 20px;
+  }
+
+  /* Jeszcze większy zoom na mniejszych ekranach */
+  #section-intro .static-hero-bg {
+    background-size: 220% auto !important;
+    background-position: 60% 12% !important;
   }
 
   #section-intro h1 {
