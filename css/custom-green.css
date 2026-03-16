@@ -408,24 +408,16 @@ header.smaller #btn-extra span {
   }
 }
 
-/* ========== Hero text — max width so it doesn't cover faces ========== */
-#section-intro .col-lg-6 {
-  max-width: 420px;
-}
-
+/* ========== Hero text ========== */
 #section-intro h1 {
   line-height: 1.05 !important;
 }
 
 /* ========== Mobile hero text ========== */
 @media (max-width: 768px) {
-  #section-intro .col-lg-6 {
-    max-width: 55%;
-  }
-
   #section-intro h1 {
     font-size: 26px !important;
-    line-height: 1.2 !important;
+    line-height: 1.15 !important;
   }
 
   #section-intro .lead {
@@ -434,24 +426,21 @@ header.smaller #btn-extra span {
   }
 
   #section-intro .sw-overlay {
-    opacity: 0.65 !important;
+    opacity: 0.7 !important;
+  }
+
+  /* Rabat badge pod tekstem na mobile */
+  #section-intro .col-lg-4 {
+    justify-content: flex-start !important;
   }
 }
 
 @media (max-width: 480px) {
-  #section-intro .col-lg-6 {
-    max-width: 60%;
-  }
-
   #section-intro h1 {
     font-size: 22px !important;
   }
 
   #section-intro .lead {
     font-size: 13px !important;
-  }
-
-  #section-intro .sw-overlay {
-    opacity: 0.7 !important;
   }
 }
