@@ -349,3 +349,26 @@ header.smaller #btn-extra span {
 #btn-close-extra:hover span {
   background: #fff !important;
 }
+
+/* ========== Mobile sidebar fix ========== */
+@media (max-width: 575px) {
+  #extra-wrap {
+    width: 100vw !important;
+    right: -100vw;
+  }
+
+  #extra-wrap.open {
+    right: 0;
+  }
+
+  #extra-content {
+    padding: 30px 25px 30px 25px !important;
+    right: 0 !important;
+    overflow-y: auto !important;
+  }
+
+  #btn-close {
+    top: 25px !important;
+    right: 25px !important;
+  }
+}
