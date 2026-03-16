@@ -364,19 +364,26 @@ header.smaller #btn-extra span {
 
   /* Hamburger button — green, visible, large tap target */
   #menu-btn {
+    display: block !important;
     color: #2E7D32 !important;
-    font-size: 24px !important;
     width: 44px !important;
     height: 44px !important;
-    display: flex !important;
-    align-items: center;
-    justify-content: center;
+    line-height: 44px !important;
+    text-align: center !important;
+  }
+
+  #menu-btn:before {
+    font-family: FontAwesome !important;
+    content: "\f0c9" !important;
+    font-size: 24px !important;
+    color: #2E7D32 !important;
   }
 
   /* X icon when menu is open */
-  #menu-btn.menu-open {
-    color: #2E7D32 !important;
+  #menu-btn.menu-open:before {
+    content: "\f00d" !important;
     font-size: 26px !important;
+    color: #2E7D32 !important;
   }
 
   /* Menu items — green accent, clear spacing */
