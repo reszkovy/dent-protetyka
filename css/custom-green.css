@@ -415,6 +415,15 @@ header.smaller #btn-extra span {
 
 /* ========== Mobile hero text ========== */
 @media (max-width: 768px) {
+  /* Push text content toward bottom so faces are visible */
+  #section-intro .abs.abs-centered {
+    top: auto !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    transform: none !important;
+    padding-bottom: 30px;
+  }
+
   #section-intro h1 {
     font-size: 26px !important;
     line-height: 1.15 !important;
@@ -429,6 +438,10 @@ header.smaller #btn-extra span {
     opacity: 0.7 !important;
   }
 
+  #section-intro .spacer-single {
+    margin: 15px 0 !important;
+  }
+
   /* Rabat badge pod tekstem na mobile */
   #section-intro .col-lg-4 {
     justify-content: flex-start !important;
@@ -436,6 +449,10 @@ header.smaller #btn-extra span {
 }
 
 @media (max-width: 480px) {
+  #section-intro .abs.abs-centered {
+    padding-bottom: 20px;
+  }
+
   #section-intro h1 {
     font-size: 22px !important;
   }
