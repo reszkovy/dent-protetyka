@@ -156,30 +156,26 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <div class="p-40 bg-color-op-1 rounded-1">
                                 <h3>Wyślij wiadomość</h3>
                                 <p>Wypełnij formularz, a oddzwonimy do Ciebie w najkrótszym możliwym czasie.</p>
-                                <form name="contactForm" id="contact_form" method="post" action="contact.php">
+                                <form action="https://formsubmit.co/dent.protetyka@gmail.com" method="POST">
+                                    <input type="hidden" name="_subject" value="Nowa wiadomość z dentprotetyka.pl">
+                                    <input type="hidden" name="_captcha" value="false">
+                                    <input type="hidden" name="_next" value="https://dentprotetyka.pl/kontakt.html?sent=1">
+                                    <input type="text" name="_honey" style="display:none">
 
                                     <div class="mb-4">
-                                        <input type="text" name="name" id="name" class="form-control" placeholder="Imię i nazwisko" required>
+                                        <input type="text" name="name" class="form-control" placeholder="Imię i nazwisko" required>
                                     </div>
 
                                     <div class="mb-4">
-                                        <input type="tel" name="phone" id="phone" class="form-control" placeholder="Numer telefonu" required>
+                                        <input type="tel" name="phone" class="form-control" placeholder="Numer telefonu" required>
                                     </div>
 
                                     <div class="mb-4 mb20">
-                                        <textarea name="message" id="message" class="form-control" placeholder="Twoja wiadomość (opcjonalnie)" rows="4"></textarea>
+                                        <textarea name="message" class="form-control" placeholder="Twoja wiadomość (opcjonalnie)" rows="4"></textarea>
                                     </div>
 
-
-                                    <div id='submit' class="mt20">
-                                        <input type='submit' id='send_message' value='Wyślij wiadomość' class="btn-main">
-                                    </div>
-
-                                    <div id="success_message" class='success'>
-                                        Twoja wiadomość została wysłana. Oddzwonimy najszybciej jak to możliwe.
-                                    </div>
-                                    <div id="error_message" class='error'>
-                                        Przepraszamy, wystąpił błąd podczas wysyłania formularza. Prosimy o kontakt telefoniczny.
+                                    <div class="mt20">
+                                        <input type='submit' value='Wyślij wiadomość' class="btn-main">
                                     </div>
                                 </form>
                             </div>
