@@ -386,6 +386,16 @@ header.smaller #btn-extra span {
     color: #2E7D32 !important;
   }
 
+  /* Force green bg when menu is open (fixes white bg on header-light subpages) */
+  header.header-mobile.menu-open {
+    background: #1B5E20 !important;
+  }
+
+  /* Hamburger green on light subpage headers (before opening) */
+  header.header-light #menu-btn:before {
+    color: #2E7D32 !important;
+  }
+
   /* Menu items — white text on green bg */
   header.header-mobile #mainmenu li {
     border-bottom: solid 1px rgba(255,255,255,0.2) !important;
@@ -408,7 +418,7 @@ header.smaller #btn-extra span {
     font-size: 15px !important;
   }
 
-  /* X close button white on green bg */
+  /* X close button white */
   #menu-btn.menu-open:before {
     color: #fff !important;
   }
@@ -420,6 +430,11 @@ header.smaller #btn-extra span {
 
   header.header-mobile #mainmenu li span.active {
     background: url(../images/ui/arrow-up-light.png) center no-repeat !important;
+  }
+
+  /* Logo white when menu open on light headers */
+  header.header-light.menu-open #logo img {
+    filter: brightness(0) invert(1) !important;
   }
 }
 
