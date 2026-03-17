@@ -411,21 +411,31 @@ header.smaller #btn-extra span {
     color: #A5D6A7 !important;
   }
 
-  /* Submenu items — all links in submenus (with or without .menu-item class) */
+  /* Submenu items — all links white, override header-light too */
   header.header-mobile #mainmenu li ul li a.menu-item,
-  header.header-mobile #mainmenu li ul li a {
-    color: rgba(255,255,255,0.85) !important;
-    border-bottom: solid 1px rgba(255,255,255,0.1) !important;
+  header.header-mobile #mainmenu li ul li a,
+  header.header-light.header-mobile #mainmenu li ul li a.menu-item,
+  header.header-light.header-mobile #mainmenu li ul li a,
+  header.header-light.header-mobile #mainmenu li a,
+  header.header-light.header-mobile #mainmenu li a.menu-item {
+    color: #fff !important;
     font-size: 15px !important;
   }
 
-  header.header-mobile #mainmenu li ul li a:hover {
-    color: #fff !important;
+  header.header-mobile #mainmenu li ul li {
+    border-bottom: solid 1px rgba(255,255,255,0.1) !important;
   }
 
-  /* Ensure submenu ul is visible with proper height */
-  header.header-mobile #mainmenu li ul {
+  header.header-mobile #mainmenu li ul li a:hover,
+  header.header-light.header-mobile #mainmenu li ul li a:hover {
+    color: #A5D6A7 !important;
+  }
+
+  /* Ensure submenu ul has no white bg */
+  header.header-mobile #mainmenu li ul,
+  header.header-light.header-mobile #mainmenu li ul {
     background: none !important;
+    border: none !important;
   }
 
   /* X close button white */
