@@ -362,10 +362,10 @@ header.smaller #btn-extra span {
     display: none !important;
   }
 
-  /* Hamburger button — green, visible, large tap target */
+  /* Hamburger button — white, visible, large tap target */
   #menu-btn {
     display: block !important;
-    color: #2E7D32 !important;
+    color: #fff !important;
     width: 44px !important;
     height: 44px !important;
     line-height: 44px !important;
@@ -376,7 +376,7 @@ header.smaller #btn-extra span {
     font-family: FontAwesome !important;
     content: "\f0c9" !important;
     font-size: 24px !important;
-    color: #2E7D32 !important;
+    color: #fff !important;
   }
 
   /* X icon when menu is open */
@@ -445,8 +445,8 @@ header.smaller #btn-extra span {
   }
 
   #section-intro .static-hero-bg {
-    background-size: 160% auto !important;
-    background-position: 65% 10% !important;
+    background-size: cover !important;
+    background-position: 70% 20% !important;
   }
 
   #section-intro h1 {
@@ -479,8 +479,8 @@ header.smaller #btn-extra span {
   }
 
   #section-intro .static-hero-bg {
-    background-size: 180% auto !important;
-    background-position: 60% 8% !important;
+    background-size: cover !important;
+    background-position: 65% 15% !important;
   }
 
   #section-intro h1 {
