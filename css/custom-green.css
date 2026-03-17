@@ -411,11 +411,21 @@ header.smaller #btn-extra span {
     color: #A5D6A7 !important;
   }
 
-  /* Submenu items */
-  header.header-mobile #mainmenu li ul li a.menu-item {
+  /* Submenu items — all links in submenus (with or without .menu-item class) */
+  header.header-mobile #mainmenu li ul li a.menu-item,
+  header.header-mobile #mainmenu li ul li a {
     color: rgba(255,255,255,0.85) !important;
     border-bottom: solid 1px rgba(255,255,255,0.1) !important;
     font-size: 15px !important;
+  }
+
+  header.header-mobile #mainmenu li ul li a:hover {
+    color: #fff !important;
+  }
+
+  /* Ensure submenu ul is visible with proper height */
+  header.header-mobile #mainmenu li ul {
+    background: none !important;
   }
 
   /* X close button white */
